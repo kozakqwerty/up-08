@@ -17,7 +17,7 @@
     width: 100%;
     background: url("../img/main.png") no-repeat;
     background-size: cover;
-    margin-bottom: 150px;
+    
 }
 
 .header{
@@ -100,6 +100,20 @@
     border: 1px solid #fff;
     color: #fff;
     font-size: 16px;
+}
+.blue-block{
+    background-color: rgba(0, 91, 193, 0.6);
+    width: 50%;
+    height: calc(100vh - 80px);
+}
+
+
+.block-icon {   
+margin: 20px 0;
+padding: 0;
+height: 0;
+border: none;
+border-top: 1px solid #333;
 }
 
 
