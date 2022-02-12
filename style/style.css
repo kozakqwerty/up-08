@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", "Arial";
 }
 
 :root{
     --container: 1110px;
 }
-
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
 
 .first{
     min-height: 100vh;
     width: 100%;
     background: url("../img/main.png") no-repeat;
     background-size: cover;
+    margin-bottom: 150px;
     
 }
 
@@ -27,13 +31,16 @@
     min-height: 80px;
     display: flex;
     align-items: center;
+    
 }
 
 .header__content{
+    font-family: "Open Sans", "Arial";
     width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    
 }
 
 .logo{
@@ -87,6 +94,7 @@
     font-family: 'Oswald', 'Open Sans', 'Arial';
     color: #fff;
     font-weight: 400;
+    font-family: 'Oswald', sans-serif;
 }
 .block-content__subtitle{
     font-size: 16px;
@@ -107,14 +115,92 @@
     height: calc(100vh - 80px);
 }
 
-
-.block-icon {   
-margin: 20px 0;
-padding: 0;
-height: 0;
-border: none;
-border-top: 1px solid #333;
+.slider{
+    margin-bottom: 150px;
 }
+
+.slider__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.slider-block__title{
+    display: flex;
+    align-items: center;
+}
+
+.title-block__burger-img{
+    width: 100px;
+    margin-right: 40px;
+}
+
+.title-block__heading{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Oswald', 'Open Sans', 'Arial';
+    font-weight: 400;
+}
+
+.arrows-block{
+    display: flex;
+}
+
+
+.slider__slides-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.slides-block__slide{
+    width: 540px;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+
+.slidleft{
+    background: url(../img/Rectangle\ 4.jpg);
+    background-size: cover;
+}
+
+.slidridth{
+    background: url(../img/Rectangle\ 4\ \(1\).jpg);
+    background-size: cover;
+}
+
+.slide-text-block{
+    width: 250px;
+    background-color: #fff;
+    padding: 20px 25px;
+    z-index: 2;
+    margin: 35px;
+    
+}
+
+.slide-text-block__heading{
+    font-family: "Oswald", 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: #343434;
+    margin-bottom: 14px;
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
