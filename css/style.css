@@ -267,14 +267,17 @@
 
 .category-img1{
     background: url(../img/Rectangle\ 4\ \(10\).png);
+    background-size: cover;
 }
 
 .category-img2{
     background: url(../img/Rectangle\ 4\ \(11\).png);
+    background-size: cover;
 }
 
 .category-img3{
     background: url(../img/Rectangle\ 4\ \(12\).png);
+    background-size: cover;
 }
 
 .category-block{
