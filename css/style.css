@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@
 .first{
     min-height: 100vh;
     width: 100%;
-    background: url("../img/main.png") no-repeat;
+    background: url("/img/main.png") no-repeat;
     background-size: cover;
     margin-bottom: 150px;
     
@@ -134,7 +135,7 @@
     align-items: center;
 }
 
-.title-block__burger-img{
+.title-block-img{
     width: 100px;
     margin-right: 40px;
 }
@@ -198,6 +199,188 @@
 .slide-text-block__subtitle{
     color: #858585;
     font-family: 'Open Sans', sans-serif;
+}
+.catalog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.catalog__title-block{
+    margin-bottom: 70px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.catalog__categories{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.categories__item{
+    font-family: "Oswald", "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    color: #343434;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.categories__item:last-child{
+    margin-right: 0;
+}
+
+.active-category{
+    color: #005BC1;
+}
+
+.active-category::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #005BC1;
+    margin-top: 5px;
+}
+
+.categories-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categories-imgs__category-img{
+    width: 350px;
+    height: 300px;
+    background-size: cover;
+    border: 3px solid #005BC1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.category-img1{
+    background: url(../img/Rectangle\ 4\ \(10\).png);
+}
+
+.category-img2{
+    background: url(../img/Rectangle\ 4\ \(11\).png);
+}
+
+.category-img3{
+    background: url(../img/Rectangle\ 4\ \(12\).png);
+}
+
+.category-block{
+    background-color: #005BC1;
+    width: 265px;
+    min-height: 86px;
+    padding: 15px 0px 15px 21px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.category-block__title{
+    font-family: "Oswald", "Open Sans";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.rent{
+    margin-bottom: 110px;
+}
+
+.rent-block__title-block{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.main-rent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-rent__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #838383;
+    line-height: 25px;
+    flex-basis: 30%;
+}
+
+.equipment-rent-block{
+    border: 3px solid #005BC1;
+    padding: 30px;
+    flex-basis: 65%;
+}
+
+.equipment-top-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.equipment-top-part__heading{
+    font-family: "Oswald", "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #242424;
+}
+
+.equipment-rent-block__equipment-info{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.equipment-info__img{
+    width: 255px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.equipment-info__text-info{
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-info__equipment-name{
+    font-family: "Oswald", "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.rent-text__nav{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+.text-info__equip-characteristics{
+    color: #838383;
+    
+    
+    
+}
+.rent-block{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 
